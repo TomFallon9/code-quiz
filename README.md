@@ -12,7 +12,7 @@ URL of the deployed application:
 
 ## Description
 
-This application is a timed quiz aboout Javascript.  I built this timed code quiz with multiple-choice questions. This app runs in the browser and features dynamically updated HTML and Bootstrap styling powered by my JavaScript code. It also features a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+This application is a timed quiz about Javascript.  I built this timed code quiz with multiple-choice questions. This app runs in the browser and features dynamically updated HTML and Bootstrap styling powered by my JavaScript code. It also features a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
 
 ## View

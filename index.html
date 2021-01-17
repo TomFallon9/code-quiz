@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+   <title>Javascript Code Quiz</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+   <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+   <!-- Navbar with high scores and timer -->
+   <nav class="navbar">
+      <a href="#" id="view-high-scores">🏆HIGH SCORES🏆</a>
+      <div class="hide" id="timer">TIME: <span id="seconds">60</span></div>
+   </nav>
+
+   <!-- Start Page -->
+   <div class="container">
+      <div id="home" class="card">
+         <h2>Javascript Code Quiz Challenge</h2>
+         <p>
+         Welcome to the Javascript Code Quiz Challenge! You have 60 seconds to answer the all questions.  Each answer is worth 100 points. For each wrong answer 10 Seconds will be deducted...Good Luck!
+         </p>
+         <button type="button" class="btn" id="start-btn">START</button>
+      </div>
+
+      <!-- Questions-->
+      <div id="quiz" class="hide card">
+         <h3 id="question">
+            </h2>
+            <div id="answer-buttons" class="btn-grid">
+               <button type="button" class="answer-btn btn" id="btn0"></button>
+               <button type="button" class="answer-btn btn" id="btn1"></button>
+               <button type="button" class="answer-btn btn" id="btn2"></button>
+               <button type="button" class="answer-btn btn" id="btn3"></button>
+            </div>
+            <div id="correct" class="hide">
+               <h2>+100 Points</h2>
+            </div>
+            <div id="incorrect" class="hide">
+               <h2>-10 Seconds</h2>
+            </div>
+      </div>
+   </div>
+
+   <!-- End Screen -->
+   <div id="results" class="card hide">
+      <h2>USER SCORE</h2>
+      <h3 id="user-score"></h3>
+      <input class="row" type="text" id="initials-input" name="initials" placeholder="Enter Your Initials" />
+      <button type="submit" class="btn" id="save-score">Save</button>
+   </div>
+
+   <!-- High Scores -->
+   <div class="card hide" id="high-scores">
+      <h2>HIGH SCORES</h2>
+      <ul class="row" id="high-scores-list"></ul>
+      <button type="button" class="btn" id="start-over">Home</button>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+</body>
+
+</html>

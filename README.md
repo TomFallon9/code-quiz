@@ -6,7 +6,7 @@ Built with HTML, Bootstrap, and JavaScript.
 
 URL of the deployed application: 
 
-URL of the GitHub repository: 
+
 
 </div>
 

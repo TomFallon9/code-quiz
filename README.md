@@ -21,7 +21,7 @@ To view the website, you can click [here](https://tomfallon9.github.io/code-quiz
 
 ## Screenshot
 
-![screenshot](https://github.com/TomFallon9/code-quiz/assets/screenshot1.png/)
+![screenshot](https://github.com/TomFallon9/code-quiz/blob/main/assets/screenshot1.png)
 
 
 

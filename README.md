@@ -19,7 +19,9 @@ This application is a timed quiz aboout Javascript.  I built this timed code qui
 
 To view the website, you can click [here](https://tomfallon9.github.io/code-quiz/)
 
-## Usage
+## Screenshot
+
+![screenshot](https://github.com/TomFallon9/code-quiz/assets/screenshot1.png/)
 
 
 

@@ -27,7 +27,7 @@ $(document).ready(function () {
    let questions = [
      {
        question: "Which of the following is correct about features of JavaScript?",
-       choices: ["Javascript is a high-level programming language", "JavaScript is is complementary to and integrated with HTML.", "JavaScript is open and cross-platform.", "All of the above."],
+       choices: ["Javascript is a high-level programming language", "JavaScript is complementary to and integrated with HTML.", "JavaScript is open and cross-platform.", "All of the above."],
        answer: "All of the above.",
      },
      {

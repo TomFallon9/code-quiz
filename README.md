@@ -4,7 +4,7 @@
 
 Built with HTML, Bootstrap, and JavaScript.
 
-URL of the deployed application: 
+URL of the deployed application: [code-quiz2021](https://tomfallon9.github.io/code-quiz/)
 
 
 

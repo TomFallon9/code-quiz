@@ -17,7 +17,7 @@ This application is a timed quiz about Javascript.  I built this timed code quiz
 
 ## View
 
-To view the website, you can click  [here](https://tomfallon9.github.io/Code-Quiz/)
+To view the website, [Code-Quiz](https://tomfallon9.github.io/code-quiz/)
 
 ## Screenshot
 
